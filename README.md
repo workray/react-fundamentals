@@ -10,19 +10,16 @@ React Basic Work Environment
 
 ## Installation
 
-`` `sh
-git clone https://github.com/velopert/react-codelab-fundamentals.Git
+```sh
+git clone https://github.com/velopert/react-codelab-fundamentals.git
 npm install -g webpack webpack-dev-server
 npm install
-# npm If the install process takes a long time, download node_modules.zip and extract it as follows:
-wget https://github.com/velopert/react-codelab-fundamentals/releases/download/1.0/node_modules.zip
-unzip node_modules.zip -d node_modules
-`` `
+```
 
-Execute ##
+## Execute
 
-`` `
+```
 npm run dev-server
-`` `
+```
 
 The server runs on port 4000. Changes can be made in webpack.config.js.
