@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Contact from './Contact';
 
 class App extends Component {
 
@@ -10,10 +11,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
-        <button onClick={() => {this.setState({name: 'Velopert'});}}>Click Me</button>
-        <h1>Hello!!! {this.state.name}</h1>
-    </div>
+      <Contact/>
     );
   }
 }
